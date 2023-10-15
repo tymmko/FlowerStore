@@ -7,8 +7,8 @@ public class FlowerBucket {
     @Getter
     private ArrayList<FlowerPack> flowerBucket = new ArrayList();
 
-    public void add(FlowerPack pack_to_add) {
-        flowerBucket.add(pack_to_add);
+    public void add(FlowerPack packtoadd) {
+        flowerBucket.add(packtoadd);
     }
     public double getPrice() {
         double price = 0.0d;
